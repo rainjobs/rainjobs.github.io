@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html class="login_html">
+
+<head>
+    <title>Rain Drop - Log In</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+
+
+    <script src="https://code.jquery.com/jquery-3.0.0.js" integrity="sha256-jrPLZ+8vDxt2FnE1zvZXCkCcebI/C8Dt5xyaQBjxQIo=" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Didact+Gothic|Source+Sans+Pro:600" rel="stylesheet">
+    
+    <script src="login.js"></script>
+
+  
+
+</head>
+<body class="static_body">
+	<div class="rains_container login_rains_container"></div>
+
+<div class="main_logo_container login_logo_container">
+	<img src="images/RainDropLogoSVG.svg" class="main_logo_svg medium_logo"  id="logo">
+</div>
+<p class="h1 login_h1" id="h1">Rain Drop</p>
+<p class="h2 login_h2" id="h2">Join us and swim in the big river</p>
+<p class="login_heading">Login</p>
+<div class="form_container">
+	<form class="login_form" method="POST" autocomplete="off" name="login_form" id="login_form">
+		<input type="email" placeholder="Email" name="email" class="input text_input email_input " id="email_input"> 
+		<span class="succsess_span_after_input span_after_email"></span>
+
+		<input type="password" placeholder="Password" name="password" class="input text_input password_input" id="password_input"> 
+		<span class="succsess_span_after_input span_after_password"></span>
+
+
+		<div class="erroe_msg_container">
+			<p class="validation_message" id="validation_message"></p>
+		</div>
+		
+		<input type="submit" name="submit_btn" class="input button_input submit_input" id="submit_input" value="Login" >
+		
+		<div class="div_flex_center login_submit_a">
+	<a href="jobs.html"><input type="button" class="input button_input submit_input" id="hidden_log_button" value="Login"></a>
+</div>
+
+
+		<p class="dont_have_registration forg_pass"><a href="">Forgot password?</a></p>
+		<div class="or_container"><p>OR</p></div>
+		
+		<a href="registration.html"><button type="button" class="input button_input or_register_input">Register</button></a>
+		
+
+	</form>
+
+
+</div>
+<div style="height: 100px;"></div>
+
+
+
+
+
+
+	<footer class="login_foter">
+		<p class="cr">Copyright &copy; Georgi Dimitranov</p>
+	</footer>	
+</body>
+</html>
