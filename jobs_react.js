@@ -358,7 +358,7 @@ var JobsList = React.createClass({
                   <div className="single_job_wraper">
                        
                         <button className="jb_return_btn" id="return_to_jobs"><span>&laquo;</span></button>
-                        <div className="jb_return_message">&laquo; Click the button to return</div>
+                       
                      <div className="div_flex_center"><img src="" className="jb_pic_data"/> </div>
                      <p className="jb_title_data"></p>
                      <div className="div_flex_center"><hr className="jb_hr"/>  </div>
